@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 4px;
+    width: 332px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #f0f0f0;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
